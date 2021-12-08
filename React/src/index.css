@@ -1,0 +1,159 @@
+.code-component{
+    width: 90%;
+    margin: auto;
+    padding: 15px;
+}
+.editor-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr) !important;
+    grid-gap: 15px;
+    width: calc(90% - 15px);
+    margin: auto;
+}
+.code-heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px auto;
+    width: 95%;
+}
+.code-heading h1{
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 28px;
+    font-weight: 500;
+}
+.img-container{
+    width: 100%;
+    margin: auto;
+    height: 300px;
+}
+.img-container img{
+    width: 100%;
+    height: 300px;
+}
+.btn Button{
+    margin-left: 8px;
+}
+.CodeMirror-scroll{
+    overflow: scroll !important;
+    overflow-x: scroll; 
+}
+/* .CodeMirror-vscrollbar{
+    overflow-x: scroll !important;
+} */
+.editor{
+    width: 100%;
+    /* max-width: 500px !important; */
+}
+.copy-btn{
+    margin-right: 70px !important;
+}
+.editor-upper{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.close-code-modal{
+    position: absolute !important;
+    right: 5px !important;
+    top: 8px !important;
+}
+.html-modal{
+    background: #fff !important;
+    height: 80vh;
+    width: 80%;
+    margin: 7vh auto;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.25);
+    position: relative;
+}
+.html-modal .CodeMirror{
+    height: 80vh;
+}
+.html-modal .editor{
+    max-width: 100% !important;
+    height: inherit;
+}
+.cm-s-material .cm-error{
+    background: none !important;
+    color: #FF5370 !important;
+}
+.js-modal{
+    width: auto !important;
+    height: auto !important;
+}
+.CodeMirror pre.CodeMirror-line, .CodeMirror pre.CodeMirror-line-like{
+    font-size: 17px !important;
+    font-weight: 400 !important;
+}
+
+/* quill */
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+      "Droid Sans", "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  pre {
+    padding: 10px;
+    white-space: pre-wrap;
+    background-color: #333333;
+    color: white;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    border-radius: 10px;
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+  }
+  
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji",
+      "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 14px;
+    line-height: 1.5;
+    color: #24292e;
+    background-color: #fff;
+  }
+  
+  .app {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+  }
+  
+  input.error {
+    border-color: red;
+  }
+  
+  .input-feedback {
+    color: red;
+    height: 5px;
+    margin-top: -12px;
+  }
+  
+  .ql-editor iframe {
+    min-height: 300px;
+  }
+  
+  .ql-editor img {
+    max-height: 300px;
+    object-fit: contain;
+  }
+  
+  .postPage iframe {
+    min-height: 400px;
+  }
+  
